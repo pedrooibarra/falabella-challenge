@@ -1,7 +1,7 @@
 Feature: Falabella shopping cart
 
   @smokeTest @shoppingCart @checkTotalPrice
-  Scenario: Add an item to shopping card and check total price
+  Scenario: Add an item to shopping cart and check total price
     Given I am on falabella.com
     And Close promotions modal if is visible
     When I search product code "15477697"
